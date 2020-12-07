@@ -1,0 +1,12 @@
+com/armagan/elif/graphqlapp/GraphqlAppApplication.class
+com/armagan/elif/graphqlapp/model/Basket.class
+com/armagan/elif/graphqlapp/model/Product.class
+com/armagan/elif/graphqlapp/model/Category.class
+com/armagan/elif/graphqlapp/resolver/Mutation.class
+com/armagan/elif/graphqlapp/repository/MemberRepository.class
+com/armagan/elif/graphqlapp/repository/ProductRepository.class
+com/armagan/elif/graphqlapp/repository/CategoryRepository.class
+com/armagan/elif/graphqlapp/repository/CampaignRepository.class
+com/armagan/elif/graphqlapp/model/Campaign.class
+com/armagan/elif/graphqlapp/resolver/Query.class
+com/armagan/elif/graphqlapp/model/Member.class

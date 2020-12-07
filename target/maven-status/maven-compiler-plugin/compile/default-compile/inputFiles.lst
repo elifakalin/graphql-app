@@ -1,0 +1,12 @@
+/Users/earmagan/Projects/personel/graphql-app/src/main/java/com/armagan/elif/graphqlapp/model/Basket.java
+/Users/earmagan/Projects/personel/graphql-app/src/main/java/com/armagan/elif/graphqlapp/model/Product.java
+/Users/earmagan/Projects/personel/graphql-app/src/main/java/com/armagan/elif/graphqlapp/resolver/Mutation.java
+/Users/earmagan/Projects/personel/graphql-app/src/main/java/com/armagan/elif/graphqlapp/model/Member.java
+/Users/earmagan/Projects/personel/graphql-app/src/main/java/com/armagan/elif/graphqlapp/model/Campaign.java
+/Users/earmagan/Projects/personel/graphql-app/src/main/java/com/armagan/elif/graphqlapp/model/Category.java
+/Users/earmagan/Projects/personel/graphql-app/src/main/java/com/armagan/elif/graphqlapp/resolver/Query.java
+/Users/earmagan/Projects/personel/graphql-app/src/main/java/com/armagan/elif/graphqlapp/repository/CategoryRepository.java
+/Users/earmagan/Projects/personel/graphql-app/src/main/java/com/armagan/elif/graphqlapp/repository/ProductRepository.java
+/Users/earmagan/Projects/personel/graphql-app/src/main/java/com/armagan/elif/graphqlapp/repository/CampaignRepository.java
+/Users/earmagan/Projects/personel/graphql-app/src/main/java/com/armagan/elif/graphqlapp/repository/MemberRepository.java
+/Users/earmagan/Projects/personel/graphql-app/src/main/java/com/armagan/elif/graphqlapp/GraphqlAppApplication.java

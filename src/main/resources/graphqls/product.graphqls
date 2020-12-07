@@ -1,0 +1,49 @@
+type product{
+    id:ID
+    status: Boolean
+    name: String
+    amount: Int
+    category: category
+    campaign: campaign
+}
+
+type category{
+    id:ID
+    status: Boolean
+    name:String
+    products: [product]
+}
+
+type campaign{
+    id:ID
+    status: Boolean
+    name:String
+}
+
+type basket{
+    id:ID
+    status: Boolean
+}
+
+type member{
+    id:ID
+    status: Boolean
+    basket_id: basket
+}
+
+type product_basket {
+    product_id: product
+    basket_id: basket
+}
+
+type Query{
+    getProducts: [product]
+    getCategories: [category]
+    getProductsByCategoryId(categoryId: ID!): [product]
+    getProductsByCampaignId(campaignId: ID!): [product]
+    getCampaigns: [campaign]
+}
+
+type Mutation{
+    createCategory(name: String!): category
+}

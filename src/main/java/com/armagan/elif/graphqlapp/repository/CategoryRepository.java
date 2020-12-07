@@ -1,0 +1,7 @@
+package com.armagan.elif.graphqlapp.repository;
+
+import com.armagan.elif.graphqlapp.model.Category;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CategoryRepository extends JpaRepository<Category, Long> {
+}
