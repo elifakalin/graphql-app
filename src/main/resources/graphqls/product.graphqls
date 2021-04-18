@@ -28,7 +28,7 @@ type basket{
 type member{
     id:ID
     status: Boolean
-    basket_id: basket
+    username: String
 }
 
 type product_basket {
@@ -38,12 +38,13 @@ type product_basket {
 
 type Query{
     getProducts: [product]
-    getCategories: [category]
     getProductsByCategoryId(categoryId: ID!): [product]
     getProductsByCampaignId(campaignId: ID!): [product]
     getCampaigns: [campaign]
+    getMemberById(id: ID!): member
 }
 
 type Mutation{
     createCategory(name: String!): category
+    createMember(username: String!, password: String!): member
 }

@@ -4,7 +4,6 @@ import lombok.Data;
 
 import javax.persistence.*;
 import java.io.Serializable;
-import java.util.List;
 
 @Entity
 @Table(name = "member")
@@ -16,7 +15,10 @@ public class Member implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private Boolean status= Boolean.TRUE;
+
     private String username;
+
+    private String password;
 
     @OneToOne(mappedBy = "member")
     private Basket basket;

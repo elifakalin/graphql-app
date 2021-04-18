@@ -8,7 +8,7 @@ INSERT INTO product (id, status, name, amount, category_id, campaign_id) VALUES 
 INSERT INTO product (id, status, name, amount, category_id, campaign_id) VALUES (3,1, 'Çamaşır Makinesi', '10', 2,null);
 INSERT INTO product (id, status, name, amount, category_id, campaign_id) VALUES (4,1, 'Saç Kurutma Makinesi', '10', 2,1);
 
-INSERT INTO member (id, status, username ) VALUES (1, 1, 'earmagan');
+INSERT INTO member (id, status, username, password ) VALUES (1, 1, 'earmagan', '123');
 
 INSERT INTO basket (id, status, member_id ) VALUES (1, 1, 1);
 
