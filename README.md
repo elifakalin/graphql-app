@@ -2,6 +2,7 @@
 
 A Graphql API example. 
 
-Requests can be run through http://localhost:8080/graphiql 
+- Query and mutation examples. 
+- Custom Exception handling 
 
 Application has own H2 database. 
